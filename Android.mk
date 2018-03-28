@@ -31,6 +31,66 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ApplicationBar
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/ApplicationBar/ApplicationBar.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := GeminiVoiceAssistant
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/GeminiVoiceAssistant/GeminiVoiceAssistant.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := Gemini_Keyboard
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/Gemini_Keyboard/Gemini_Keyboard.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ledison
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/ledison/ledison.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := notes
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/notes/notes.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libGLES_mali
 LOCAL_MODULE_OWNER := planet
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/egl/libGLES_mali.so
@@ -43,11 +103,11 @@ LOCAL_MODULE_PATH_32 := $($(TARGET_2ND_ARCH_VAR_PREFIX)TARGET_OUT_VENDOR_SHARED_
 LOCAL_MODULE_PATH_64 := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/egl
 SYMLINKS := $(TARGET_OUT)/vendor
 $(SYMLINKS):
-	@echo "Symlink: vulkan.mt6797.so"
+	@echo "Symlink: vulkan.exynos5.so"
 	@mkdir -p $@/lib/hw
 	@mkdir -p $@/lib64/hw
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.mt6797.so
-	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.mt6797.so
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib/hw/vulkan.exynos5.so
+	$(hide) ln -sf ../egl/libGLES_mali.so $@/lib64/hw/vulkan.exynos5.so
 ALL_MODULES.$(LOCAL_MODULE).INSTALLED := \
 	$(ALL_MODULES.$(LOCAL_MODULE).INSTALLED) $(SYMLINKS)
 include $(BUILD_PREBUILT)

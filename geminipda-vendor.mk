@@ -17,9 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
     vendor/planet/geminipda/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
-    vendor/planet/geminipda/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
-    vendor/planet/geminipda/proprietary/usr/keylayout/AVRCP.kl:system/usr/keylayout/AVRCP.kl \
-    vendor/planet/geminipda/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
     vendor/planet/geminipda/proprietary/vendor/bin/ccci_fsd:system/vendor/bin/ccci_fsd \
     vendor/planet/geminipda/proprietary/vendor/bin/ccci_mdinit:system/vendor/bin/ccci_mdinit \
     vendor/planet/geminipda/proprietary/vendor/bin/factory:system/vendor/bin/factory \
@@ -48,14 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/bin/wifi2agps:system/vendor/bin/wifi2agps \
     vendor/planet/geminipda/proprietary/vendor/bin/wmt_launcher:system/vendor/bin/wmt_launcher \
     vendor/planet/geminipda/proprietary/vendor/bin/wmt_loader:system/vendor/bin/wmt_loader \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/.ht120.mtc:system/vendor/etc/.tp/.ht120.mtc \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/.thermal_policy_00:system/vendor/etc/.tp/.thermal_policy_00 \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/.thermal_policy_01:system/vendor/etc/.tp/.thermal_policy_01 \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/.thermal_policy_02:system/vendor/etc/.tp/.thermal_policy_02 \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/.thermal_policy_03:system/vendor/etc/.tp/.thermal_policy_03 \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/thermal.conf:system/vendor/etc/.tp/thermal.conf \
-    vendor/planet/geminipda/proprietary/vendor/etc/.tp/thermal.off.conf:system/vendor/etc/.tp/thermal.off.conf \
-    vendor/planet/geminipda/proprietary/vendor/etc/agps_profiles_conf2.xml:system/vendor/etc/agps_profiles_conf2.xml \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_device.xml:system/vendor/etc/audio_device.xml \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:system/vendor/etc/audio_param/AudioParamOptions.xml \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:system/vendor/etc/audio_param/PlaybackACF_AudioParam.xml \
@@ -120,7 +109,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:system/vendor/etc/audio_param/Volume_AudioParam.xml \
     vendor/planet/geminipda/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:system/vendor/etc/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/planet/geminipda/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/planet/geminipda/proprietary/vendor/etc/custom.conf:system/vendor/etc/custom.conf \
     vendor/planet/geminipda/proprietary/vendor/etc/factory.ini:system/vendor/etc/factory.ini \
     vendor/planet/geminipda/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
@@ -161,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/firmware/pcm_vcorefs_ultra.bin:system/vendor/firmware/pcm_vcorefs_ultra.bin \
     vendor/planet/geminipda/proprietary/vendor/lib/drm/libdrmctaplugin.so:system/vendor/lib/drm/libdrmctaplugin.so \
     vendor/planet/geminipda/proprietary/vendor/lib/drm/libdrmmtkplugin.so:system/vendor/lib/drm/libdrmmtkplugin.so \
-    vendor/planet/geminipda/proprietary/vendor/lib/egl/egl.cfg:system/vendor/lib/egl/egl.cfg \
     vendor/planet/geminipda/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/audio.primary.mt6797.so:system/vendor/lib/hw/audio.primary.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/audio.r_submix.mt6797.so:system/vendor/lib/hw/audio.r_submix.mt6797.so \
@@ -171,7 +158,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/gralloc.mt6797.so:system/vendor/lib/hw/gralloc.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/hwcomposer.mt6797.so:system/vendor/lib/hw/hwcomposer.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/memtrack.mt6797.so:system/vendor/lib/hw/memtrack.mt6797.so \
-    vendor/planet/geminipda/proprietary/vendor/lib/hw/power.mt6797.so:system/vendor/lib/hw/power.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/sensors.mt6797.so:system/vendor/lib/hw/sensors.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/sound_trigger.primary.mt6797.so:system/vendor/lib/hw/sound_trigger.primary.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib/hw/thermal.mt6797.so:system/vendor/lib/hw/thermal.mt6797.so \
@@ -346,7 +332,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/hw/gralloc.mt6797.so:system/vendor/lib64/hw/gralloc.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/hw/hwcomposer.mt6797.so:system/vendor/lib64/hw/hwcomposer.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/hw/memtrack.mt6797.so:system/vendor/lib64/hw/memtrack.mt6797.so \
-    vendor/planet/geminipda/proprietary/vendor/lib64/hw/power.mt6797.so:system/vendor/lib64/hw/power.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/hw/sensors.mt6797.so:system/vendor/lib64/hw/sensors.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/hw/thermal.mt6797.so:system/vendor/lib64/hw/thermal.mt6797.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
@@ -486,6 +471,11 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so
 
 PRODUCT_PACKAGES += \
-    libdpframework
+    libdpframework \
+    ApplicationBar \
+    GeminiVoiceAssistant \
+    Gemini_Keyboard \
+    ledison \
+    notes
 # Create Mali links for Vulkan
 PRODUCT_PACKAGES += libGLES_mali
