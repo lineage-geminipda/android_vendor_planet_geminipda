@@ -460,6 +460,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libdpframework \
     ApplicationBar \
+    GeminiInputDevices \
     GeminiVoiceAssistant \
     Gemini_Keyboard \
     ledison \

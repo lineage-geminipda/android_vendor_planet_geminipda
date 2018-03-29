@@ -43,6 +43,18 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := GeminiInputDevices
+LOCAL_MODULE_OWNER := planet
+LOCAL_SRC_FILES := proprietary/vendor/app/GeminiInputDevices/GeminiInputDevices.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PROPRIETARY_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := GeminiVoiceAssistant
 LOCAL_MODULE_OWNER := planet
 LOCAL_SRC_FILES := proprietary/vendor/app/GeminiVoiceAssistant/GeminiVoiceAssistant.apk
