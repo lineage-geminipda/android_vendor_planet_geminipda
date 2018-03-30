@@ -463,9 +463,7 @@ PRODUCT_PACKAGES += \
     libdpframework \
     ApplicationBar \
     GeminiInputDevices \
-    GeminiVoiceAssistant \
     Gemini_Keyboard \
-    ledison \
     notes
 # Create Mali links for Vulkan
 PRODUCT_PACKAGES += libGLES_mali
