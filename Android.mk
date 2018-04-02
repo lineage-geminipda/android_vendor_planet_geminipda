@@ -33,49 +33,45 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ApplicationBar
 LOCAL_MODULE_OWNER := planet
-LOCAL_SRC_FILES := proprietary/vendor/app/ApplicationBar/ApplicationBar.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/app/ApplicationBar/ApplicationBar.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := GeminiInputDevices
 LOCAL_MODULE_OWNER := planet
-LOCAL_SRC_FILES := proprietary/vendor/app/GeminiInputDevices/GeminiInputDevices.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/app/GeminiInputDevices/GeminiInputDevices.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Gemini_Keyboard
 LOCAL_MODULE_OWNER := planet
-LOCAL_SRC_FILES := proprietary/vendor/app/Gemini_Keyboard/Gemini_Keyboard.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/app/Gemini_Keyboard/Gemini_Keyboard.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := notes
 LOCAL_MODULE_OWNER := planet
-LOCAL_SRC_FILES := proprietary/vendor/app/notes/notes.apk
-LOCAL_CERTIFICATE := platform
+LOCAL_SRC_FILES := proprietary/app/notes/notes.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
