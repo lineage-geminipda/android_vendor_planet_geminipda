@@ -30,17 +30,27 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/bin/mnld:system/vendor/bin/mnld \
     vendor/planet/geminipda/proprietary/vendor/bin/msensord:system/vendor/bin/msensord \
     vendor/planet/geminipda/proprietary/vendor/bin/mtk_agpsd:system/vendor/bin/mtk_agpsd \
+    vendor/planet/geminipda/proprietary/vendor/bin/mtkmal:system/vendor/bin/mtkmal \
     vendor/planet/geminipda/proprietary/vendor/bin/mtkrild:system/vendor/bin/mtkrild \
     vendor/planet/geminipda/proprietary/vendor/bin/mtkrildmd2:system/vendor/bin/mtkrildmd2 \
     vendor/planet/geminipda/proprietary/vendor/bin/muxreport:system/vendor/bin/muxreport \
     vendor/planet/geminipda/proprietary/vendor/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
     vendor/planet/geminipda/proprietary/vendor/bin/pq:system/vendor/bin/pq \
+    vendor/planet/geminipda/proprietary/vendor/bin/rilproxy:system/vendor/bin/rilproxy \
+    vendor/planet/geminipda/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
     vendor/planet/geminipda/proprietary/vendor/bin/spm_loader:system/vendor/bin/spm_loader \
+    vendor/planet/geminipda/proprietary/vendor/bin/sysenv_daemon:system/vendor/bin/sysenv_daemon \
+    vendor/planet/geminipda/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
     vendor/planet/geminipda/proprietary/vendor/bin/thermal:system/vendor/bin/thermal \
     vendor/planet/geminipda/proprietary/vendor/bin/thermal_manager:system/vendor/bin/thermal_manager \
     vendor/planet/geminipda/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
     vendor/planet/geminipda/proprietary/vendor/bin/thermalindicator:system/vendor/bin/thermalindicator \
     vendor/planet/geminipda/proprietary/vendor/bin/thermalloadalgod:system/vendor/bin/thermalloadalgod \
+    vendor/planet/geminipda/proprietary/vendor/bin/viaradiooptions:system/vendor/bin/viaradiooptions \
+    vendor/planet/geminipda/proprietary/vendor/bin/viarild:system/vendor/bin/viarild \
+    vendor/planet/geminipda/proprietary/vendor/bin/volte_imcb:system/vendor/bin/volte_imcb \
+    vendor/planet/geminipda/proprietary/vendor/bin/volte_stack:system/vendor/bin/volte_stack \
+    vendor/planet/geminipda/proprietary/vendor/bin/volte_ua:system/vendor/bin/volte_ua \
     vendor/planet/geminipda/proprietary/vendor/bin/wifi2agps:system/vendor/bin/wifi2agps \
     vendor/planet/geminipda/proprietary/vendor/bin/wmt_launcher:system/vendor/bin/wmt_launcher \
     vendor/planet/geminipda/proprietary/vendor/bin/wmt_loader:system/vendor/bin/wmt_loader \
@@ -201,7 +211,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam.vhdr.so:system/vendor/lib/libcam.vhdr.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam1_utils.so:system/vendor/lib/libcam1_utils.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam3_app.so:system/vendor/lib/libcam3_app.so \
-    vendor/planet/geminipda/proprietary/vendor/lib/libcam3_contextbuilder.so:system/vendor/lib/libcam3_contextbuilder.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam3_hwpipeline.so:system/vendor/lib/libcam3_hwpipeline.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam3a_imem.so:system/vendor/lib/libcam3a_imem.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam_extension.so:system/vendor/lib/libcam_extension.so \
@@ -277,7 +286,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libmtkjpeg.so:system/vendor/lib/libmtkjpeg.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmtklimiter.so:system/vendor/lib/libmtklimiter.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmtkshifter.so:system/vendor/lib/libmtkshifter.so \
-    vendor/planet/geminipda/proprietary/vendor/lib/libn3d3a.so:system/vendor/lib/libn3d3a.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libnvram.so:system/vendor/lib/libnvram.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libnvram_daemon_callback.so:system/vendor/lib/libnvram_daemon_callback.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libnvram_platform.so:system/vendor/lib/libnvram_platform.so \
@@ -304,6 +312,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodec_oal.so:system/vendor/lib/libvcodec_oal.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodec_utility.so:system/vendor/lib/libvcodec_utility.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodecdrv.so:system/vendor/lib/libvcodecdrv.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/libviatelecom-withuim-ril.so:system/vendor/lib/libviatelecom-withuim-ril.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
@@ -312,6 +321,8 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/planet/geminipda/proprietary/vendor/lib/mtk-ril.so:system/vendor/lib/mtk-ril.so \
     vendor/planet/geminipda/proprietary/vendor/lib/mtk-rilmd2.so:system/vendor/lib/mtk-rilmd2.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/mtk-rilproxy.so:system/vendor/lib/mtk-rilproxy.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/volte_imsm.so:system/vendor/lib/volte_imsm.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/drm/libdrmctaplugin.so:system/vendor/lib64/drm/libdrmctaplugin.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/drm/libdrmmtkplugin.so:system/vendor/lib64/drm/libdrmmtkplugin.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
@@ -367,7 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam.vhdr.so:system/vendor/lib64/libcam.vhdr.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam1_utils.so:system/vendor/lib64/libcam1_utils.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam3_app.so:system/vendor/lib64/libcam3_app.so \
-    vendor/planet/geminipda/proprietary/vendor/lib64/libcam3_contextbuilder.so:system/vendor/lib64/libcam3_contextbuilder.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam3_hwpipeline.so:system/vendor/lib64/libcam3_hwpipeline.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam3a_imem.so:system/vendor/lib64/libcam3a_imem.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libcam_extension.so:system/vendor/lib64/libcam_extension.so \
@@ -457,7 +467,9 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/mtk-ril.so:system/vendor/lib64/mtk-ril.so \
-    vendor/planet/geminipda/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so
+    vendor/planet/geminipda/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so \
+    vendor/planet/geminipda/proprietary/vendor/lib64/mtk-rilproxy.so:system/vendor/lib64/mtk-rilproxy.so \
+    vendor/planet/geminipda/proprietary/vendor/lib64/volte_imsm.so:system/vendor/lib64/volte_imsm.so
 
 PRODUCT_PACKAGES += \
     libdpframework \
