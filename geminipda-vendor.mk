@@ -24,6 +24,9 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/bin/gsm0710muxd:system/vendor/bin/gsm0710muxd \
     vendor/planet/geminipda/proprietary/vendor/bin/gsm0710muxdmd2:system/vendor/bin/gsm0710muxdmd2 \
     vendor/planet/geminipda/proprietary/vendor/bin/md_ctrl:system/vendor/bin/md_ctrl \
+    vendor/planet/geminipda/proprietary/vendor/bin/md_monitor:system/vendor/bin/md_monitor \
+    vendor/planet/geminipda/proprietary/vendor/bin/md_monitor_ctrl:system/vendor/bin/md_monitor_ctrl \
+    vendor/planet/geminipda/proprietary/vendor/bin/mdlogger:system/vendor/bin/mdlogger \
     vendor/planet/geminipda/proprietary/vendor/bin/memsicd3416x:system/vendor/bin/memsicd3416x \
     vendor/planet/geminipda/proprietary/vendor/bin/memsicd3524x:system/vendor/bin/memsicd3524x \
     vendor/planet/geminipda/proprietary/vendor/bin/meta_tst:system/vendor/bin/meta_tst \
@@ -190,6 +193,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libbluetooth_mtk_pure.so:system/vendor/lib/libbluetooth_mtk_pure.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libbwc.so:system/vendor/lib/libbwc.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/libc2kril.so:system/vendor/lib/libc2kril.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libc2kutils.so:system/vendor/lib/libc2kutils.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam.camadapter.so:system/vendor/lib/libcam.camadapter.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libcam.camshot.so:system/vendor/lib/libcam.camshot.so \
@@ -257,6 +261,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libm4u.so:system/vendor/lib/libm4u.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmal.so:system/vendor/lib/libmal.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmdfx.so:system/vendor/lib/libmdfx.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/libmdloggerrecycle.so:system/vendor/lib/libmdloggerrecycle.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmfllcore.so:system/vendor/lib/libmfllcore.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmhalImageCodec.so:system/vendor/lib/libmhalImageCodec.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libmjc.so:system/vendor/lib/libmjc.so \
@@ -312,6 +317,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodec_oal.so:system/vendor/lib/libvcodec_oal.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodec_utility.so:system/vendor/lib/libvcodec_utility.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvcodecdrv.so:system/vendor/lib/libvcodecdrv.so \
+    vendor/planet/geminipda/proprietary/vendor/lib/libviagpsrpc.so:system/vendor/lib/libviagpsrpc.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libviatelecom-withuim-ril.so:system/vendor/lib/libviatelecom-withuim-ril.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
     vendor/planet/geminipda/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
@@ -419,6 +425,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/libm4u.so:system/vendor/lib64/libm4u.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libmal.so:system/vendor/lib64/libmal.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libmdfx.so:system/vendor/lib64/libmdfx.so \
+    vendor/planet/geminipda/proprietary/vendor/lib64/libmdloggerrecycle.so:system/vendor/lib64/libmdloggerrecycle.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libmfllcore.so:system/vendor/lib64/libmfllcore.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libmhalImageCodec.so:system/vendor/lib64/libmhalImageCodec.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libmrdump.so:system/vendor/lib64/libmrdump.so \
@@ -460,6 +467,7 @@ PRODUCT_COPY_FILES += \
     vendor/planet/geminipda/proprietary/vendor/lib64/libspeech_enh_lib.so:system/vendor/lib64/libspeech_enh_lib.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libstagefrighthw.so:system/vendor/lib64/libstagefrighthw.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libsysenv.so:system/vendor/lib64/libsysenv.so \
+    vendor/planet/geminipda/proprietary/vendor/lib64/libterservice.so:system/vendor/lib64/libterservice.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libtouchfilter.so:system/vendor/lib64/libtouchfilter.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
     vendor/planet/geminipda/proprietary/vendor/lib64/libvcodec_utility.so:system/vendor/lib64/libvcodec_utility.so \
